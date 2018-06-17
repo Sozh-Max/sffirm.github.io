@@ -57,6 +57,22 @@ html{
 			font-family: $pagnolin;
 		}
 	}
+	.fs_game{
+		margin-top: 50px;
+	}
+	.start_game{
+		padding: 10px 45px;
+		background: #ff0000;
+		border-radius: 40px;
+		color: #fff;
+		text-decoration: none;
+		transition: 150ms;
+		font-size: 20px;
+		font-family: $pagnolin;
+		&:hover{
+			background: #990000;
+		}
+	}
 }
 
 .fraction_section{
