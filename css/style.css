@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css?family=Pangolin&subset=cyrillic,cyrillic-ext,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext");
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #414141;
+  font-size: 16px;
+}
+
+body,
+html {
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 320px;
+  position: relative;
+}
+.wrapper .main {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  -moz-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+}
+
+.first_screen {
+  text-align: center;
+  background: url(../img/first_bg.jpg) center;
+}
+.first_screen .fs_inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.first_screen h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 90px;
+  color: #ff0000;
+  font-family: "Pangolin", cursive;
+  line-height: 1.1;
+}
+.first_screen .fs_text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.first_screen .fs_text span {
+  font-size: 24px;
+  font-family: "Pangolin", cursive;
+}
+
+.fraction_section {
+  background: #fff;
+}
+.fraction_section .fs_inner {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.fraction_section .fs_title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+.fraction_section .fs_text {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+.fraction_section .fraction_block {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fraction_section .fraction_logo {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 50px;
+}
+.fraction_section .fraction_logo img {
+  width: 100%;
+}
+.fraction_section .fraction_description {
+  font-size: 20px;
+  text-align: left;
+}
+.fraction_section .fraction_description .frac_name {
+  font-size: 30px;
+  font-family: "Pangolin", cursive;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.fraction_section .fraction_description .frac_name.life {
+  color: #ff00ba;
+}
+.fraction_section .fraction_description .frac_name.orange {
+  color: #ffdf60;
+}
+.fraction_section .fraction_description .frac_name.shadow {
+  color: #6200ae;
+}
+.fraction_section .fraction_description .frac_text {
+  font-size: 20px;
+}
+.fraction_section .fraction_description .frac_text .pink {
+  color: #ff00ba;
+  font-family: "Pangolin", cursive;
+}
+.fraction_section .fraction_description .frac_text .blue {
+  color: #a9fbfe;
+  font-family: "Pangolin", cursive;
+}
+.fraction_section .fraction_description .frac_text .orange {
+  color: #ffdf60;
+  font-family: "Pangolin", cursive;
+}
+.fraction_section .fraction_description .frac_text .red {
+  color: #ff0000;
+  font-family: "Pangolin", cursive;
+}
+.fraction_section .fraction_description .frac_text .purple {
+  color: #6200ae;
+  font-family: "Pangolin", cursive;
+}
+.fraction_section .fraction_description .frac_text .gray {
+  color: #a4a4a4;
+  font-family: "Pangolin", cursive;
+}
+
+.fraction_monsters {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: silver;
+}
+.fraction_monsters .fm_title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+.fraction_monsters .fm_name {
+  font-size: 30px;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-family: "Pangolin", cursive;
+}
+.fraction_monsters .fm_name.life {
+  color: #ff00ba;
+}
+.fraction_monsters .fm_name.chaos {
+  color: #ffdf60;
+}
+.fraction_monsters .fm_name.shadow {
+  color: #6200ae;
+}
+.fraction_monsters .compecte {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fraction_monsters .compecte .complecte_desc {
+  font-size: 20px;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -moz-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.fraction_monsters .compecte .complecte_desc span {
+  font-family: "Pangolin", cursive;
+}
+.fraction_monsters .compecte .complecte_desc .life {
+  color: #ff00ba;
+}
+.fraction_monsters .compecte .complecte_desc .chaos {
+  color: #ffdf60;
+}
+.fraction_monsters .compecte .complecte_desc .shadow {
+  color: #6200ae;
+}
+.fraction_monsters .compecte .complecte_img {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -moz-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  width: 200px;
+  min-width: 200px;
+  margin-left: 30px;
+}
+.fraction_monsters .compecte .complecte_img img {
+  width: 100%;
+}
+
+.game_tasks {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.game_tasks .gt_title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+.game_tasks .task_block {
+  margin-bottom: 40px;
+}
+.game_tasks .task_name {
+  font-size: 30px;
+  margin-bottom: 30px;
+  line-height: 1.1;
+  font-family: "Pangolin", cursive;
+}
+.game_tasks .task_img {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.game_tasks .task_img img {
+  display: block;
+  width: 100%;
+}
+.game_tasks .task_text {
+  font-size: 20px;
+}
+
+.founder_section {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: url(../img/first_bg.jpg) center;
+}
+.founder_section .founder_title {
+  color: #ff0000;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-family: "Pangolin", cursive;
+  text-align: center;
+}
+.founder_section .founder_name {
+  color: #0084ff;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: "Pangolin", cursive;
+  text-align: center;
+  font-weight: 700;
+}
+.founder_section .founder_avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #0084ff;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 25px;
+  box-shadow: 0 0px 55px rgba(255, 255, 255, 0.4);
+}
+.founder_section .founder_avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: auto;
+}
+.founder_section .founder_social ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.founder_section .founder_social li {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 30px;
+}
+.founder_section .founder_social li a {
+  transition: 150ms;
+  color: #0084ff;
+}
+.founder_section .founder_social li a:hover {
+  color: #01d9ff;
+}
+
+.start_section {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background: lightgray;
+  text-align: center;
+}
+.start_section .start_title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-family: "Pangolin", cursive;
+}
+.start_section .start_game {
+  padding: 10px 45px;
+  background: #ff0000;
+  border-radius: 40px;
+  color: #fff;
+  text-decoration: none;
+  transition: 150ms;
+  font-size: 20px;
+  font-family: "Pangolin", cursive;
+}
+.start_section .start_game:hover {
+  background: #990000;
+}
